@@ -56,9 +56,9 @@ module TabsHelper
       def tabs(&block)
         raise ArgumentError, "Missing block" unless block_given?
 
-        concat('<ul id="tabs">', proc.binding)
+        concat('<ul id="tabs">')
         yield(Tab.new(self))
-        concat('</ul>', proc.binding)
+        concat('</ul>')
       end
 
     end
