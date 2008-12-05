@@ -7,10 +7,9 @@ Very useful for web appications.
 
   ruby script/plugin install git://github.com/rafaelp/tabs_helper.git
 
-If you got this plugin with SVN or Piston, run: ruby vendor/plugins/tabs-helper/install.rb
+## USAGE
 
-To use the tabs_helper you need to include the CSS stylesheet in the <head> of your layout template.
-You can do this either by manually including the files via `stylesheet_link_tag` OR by using the included `tabs_helper_includes` helper method, which will do this for you.
+Just install the plugin and see the example below:
 
 ## EXAMPLE
 
@@ -30,24 +29,29 @@ You can do this either by manually including the files via `stylesheet_link_tag`
       <%= tab.projects 'Projects', projects_path %>
     <% end %>
 
+		# HTML Result
+    <ul id="tabs">
+      <li><a href="/accounts">Account</a></li>
+      <li><a href="/users">Users</a></li>
+      <li><a href="/" class="current">Dashboard</a></li>
+      <li><a href="/projects">Projects</a></li>    
+    </ul>  
+		
+
 ## LICENSE
 
 Tabs Helper is released under the MIT License.
 
-## AUTHOR
+## ORIGINAL PLUGIN AUTHOR
 
 ### **Rafael Lima**
 
-Working at [BielSystems](http://bielsystems.com.br)
-
 Blog: [http://rafael.adm.br](http://rafael.adm.br)
-
-Podcast: [http://rafael.adm.br/voltandopracasa](http://rafael.adm.br/voltandopracasa)
-
 Github: [http://github.com/rafaelp](http://github.com/rafaelp)
 
-Twitter: [http://twitter.com/rafaelp](http://twitter.com/rafaelp)
+## ADAPTATIONS 
 
-### Did you like?
+### **Daniel Lopes**
 
-[Recommend me at Working With Rails](http://workingwithrails.com/recommendation/new/person/14248-rafael-lima)
+Blog: [http://blog.areacriacoes.com.br](http://blog.areacriacoes.com.br)
+Github: [http://github.com/danielvlopes](http://github.com/danielvlopes)
