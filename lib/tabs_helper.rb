@@ -53,12 +53,13 @@ module TabsHelper
         end
       end
 
-      def tabs(&block)
+      def tabs(options={}, &block)
         raise ArgumentError, "Missing block" unless block_given?
 
-        concat('<ul id="tabs">')
+        concat("<ul class='tabs #{options[:class]}'>")
         yield(Tab.new(self))
         concat('</ul>')
+
       end
 
     end
