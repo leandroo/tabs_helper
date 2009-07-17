@@ -6,7 +6,7 @@ Very useful for web appications.
 h2. INSTALATION
 
 <pre>
-  ruby script/plugin install git://github.com/rafaelp/tabs_helper.git
+  ruby script/plugin install git://github.com/danielvlopes/tabs_helper.git
 </pre>
 
 h2. USAGE
