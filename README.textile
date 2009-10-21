@@ -31,7 +31,7 @@ h3. View
 *ERB code*
 
 <pre>
-<% tabs do |tab| %>
+<% tabs :id=>"mainMenu", :class=>"menu" do |tab| %>
   <%= tab.account 'Account', account_path, :style => 'float: right' %>
   <%= tab.users 'Users', users_path, :style => 'float: right' %>
   <%= tab.mydashboard 'Dashboard', '/' %>
@@ -41,8 +41,8 @@ h3. View
 
 *HTML Result*
 
-<pre
- <ul id="tabs">
+<pre>
+ <ul id="mainMenu" class="menu">
    <li><a href="/accounts">Account</a></li>
    <li><a href="/users">Users</a></li>
    <li><a href="/" class="current">Dashboard</a></li>
