@@ -20,9 +20,7 @@ h3. Controller
 <pre>
 class DashboardController < ApplicationController
   current_tab :mydashboard
-
   ...
- 
 end
 </pre>
 
@@ -46,13 +44,13 @@ h3. View
    <li><a href="/accounts">Account</a></li>
    <li><a href="/users">Users</a></li>
    <li><a href="/" class="current">Dashboard</a></li>
-   <li><a href="/projects">Projects</a></li>    
- </ul>  
+   <li><a href="/projects">Projects</a></li>
+ </ul>
 </pre>
 
 *Blocks for content*
 
-Also is possible to pass blocks instead of simple strings for content. 
+Also is possible to pass blocks instead of simple strings for content.
 In this way you can create tabs with icons. Like below:
 
 <pre>
@@ -106,7 +104,7 @@ This plugin don't came with any kind of asset like image or css. The layout of t
 </head>
 
 <body>
-<div id="header">      
+<div id="header">
      <ul>
           <li><a href="#"><span>Home</span></a></li>
           <li><a href="#"><span>Quem Somos</span></a></li>
