@@ -62,14 +62,14 @@ module TabsHelper
             options      = args.first || {}
             html_options = args.second || {}
             link_content = @context.capture(&block)
-            link         = @context.link_to (link_content, options, html_options)
+            link         = @context.link_to(link_content, options, html_options)
             
             @context.concat create_tab(tab, link)  
           else
             name         = args.first
             options      = args.second || {}
             html_options = args.third || {}
-            link         = @context.link_to (name, options, html_options)
+            link         = @context.link_to(name, options, html_options)
             
             create_tab(tab, link)
           end
