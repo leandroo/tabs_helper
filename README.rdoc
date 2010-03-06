@@ -1,0 +1,11 @@
+= Tabs Helper
+
+This project was deprecated, don't use it. You should use {menu_builder}[http://github.com/danielvlopes/menu_builder] gem.
+
+The usage of menu_builder is the same of tabs_helper but with much better code and as a gem.
+
+== AUTHOR
+
+Author:: Daniel Lopes
+Blog:: {http://blog.areacriacoes.com.br}[http://blog.areacriacoes.com.br]
+Github:: {http://github.com/danielvlopes}[http://github.com/danielvlopes]
