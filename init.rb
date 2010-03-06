@@ -1,4 +1,2 @@
 # Include hook code here
-
-ActionController::Base.send :include, TabsHelper
-ActionView::Base.send :include, TabsHelper::Helpers::ViewHelpers
+require File.join(File.dirname(__FILE__), "lib", "tabs_helper")
